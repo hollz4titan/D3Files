@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <h1>daveBrader</h1>
+    <div id="phoenix-chart"></div>
+    <!-- domo.js optional utils -->
+    <script src="domo.js"></script>
+	
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- This version of domoPhoenix DOES NOT INCLUDE bundled map definitions -->
+    <script src="domoPhoenix.js"></script>
+    <script src="app.js"></script>
+	
+	
+	
+	
+	
+	
+	
+	<h3>Hello!!</h3>
+	
+	
+	<svg width ="50" height="50">
+		<circle cx="25" cy="25" r = "25"
+		style = "fill:blue" />
+	</svg>
+	
+	
+
+	<script>
+      d3.select("body")
+        .append("svg")
+           .attr("width", 50)
+           .attr("height", 50)
+        .append("circle")
+           .attr("cx", 25)
+           .attr("cy", 25)
+           .attr("r",25)
+
+          .style("fill", "purple");
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "daveBrader",
+  "version": "1.0.0",
+  "size": {
+    "width": 3,
+    "height": 2
+  },
+  "mapping": [
+    {
+      "dataSetId": "8507be55-be0c-44de-8941-4d572a881349",
+      "alias": "GTTR10_RCC",
+      "fields": []
+    }
+  ],
+  "fileName": "manifest.json",
+  "id": "b1a445da-051d-4e23-b8fc-aa180b1d6198"
+}
